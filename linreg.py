@@ -32,7 +32,7 @@ def inputx():
     return np.array(x), xtitle
 
 def inputy():
-    print("Masukkan nama kelas klasifikasi y (default: y)")
+    print("Masukkan nama variabel y (default: y)")
     ytitle = input().strip()
     if ytitle == '':
         ytitle="y"
